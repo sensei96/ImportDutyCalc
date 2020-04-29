@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "149439587256",
+    "firebase_url": "https://importdutycalc.firebaseio.com",
+    "project_id": "importdutycalc",
+    "storage_bucket": "importdutycalc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149439587256:android:5e57c9c0092f2269",
+        "android_client_info": {
+          "package_name": "com.arl.importdutycalc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149439587256-8sg4nghjfjb582esev9qid92muq2180p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arl.importdutycalc",
+            "certificate_hash": "446bfb186079840fb7b57f9dd74fec6541b23797"
+          }
+        },
+        {
+          "client_id": "149439587256-gsv67i865i0dl07bf62qv1bej90g5cmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2eFrVcOMyEH1TTZtX-AKJCVIVnXKLTko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149439587256-gsv67i865i0dl07bf62qv1bej90g5cmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

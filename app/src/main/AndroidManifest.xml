@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arl.importdutycalc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="ca-app-pub-6593971228900391~7813946348" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launch"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launch"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ResultFinal"
+            android:label="Full Description"></activity>
+        <activity android:name=".InswActivity"
+            android:label="HS Code Information"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

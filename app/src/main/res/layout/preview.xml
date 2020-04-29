@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/layoutklik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginBottom="5sp"
+        android:padding="10sp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearupper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5sp"
+                tools:ignore="InvalidId">
+
+
+                <TextView
+                    android:id="@+id/texthscode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/overlock"
+                    android:text="HSCode  25172000"
+                    />
+
+                <TextView
+                    android:id="@+id/textbm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50sp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/overlock"
+                    android:gravity="center_horizontal"
+                    android:text=" BM  5.00"
+                    />
+
+                <TextView
+                    android:id="@+id/textppn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/overlock"
+                    android:gravity="center_horizontal"
+                    android:text=" PPN  5.00"
+                    />
+
+                <TextView
+                    android:id="@+id/textppnbm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/overlock"
+                    android:gravity="center_horizontal"
+                    android:text=" PPNBM  5.00"
+                    />
+
+                <TextView
+                    android:id="@+id/textpph"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/overlock"
+                    android:gravity="center_horizontal"
+                    android:text=" PPH  5.00"
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativegaris1"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:layout_below="@+id/linearupper"
+                android:background="#575050"></RelativeLayout>
+
+            <TextView
+                android:id="@+id/textdesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativegaris1"
+                android:layout_marginTop="5sp"
+                android:fontFamily="@font/overlock"
+                android:gravity="center_horizontal"
+                android:text=" POSTARIF \n - Makadam dari terak, sampah atau sisa buangan industri sejenis, bercampur dengan bahan tersebut dalam subpos 2517.10 maupun tidak"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_alignLeft="@+id/layoutklik"
+        android:layout_alignStart="@+id/layoutklik"
+        android:layout_below="@+id/layoutklik">
+    </RelativeLayout>
+</RelativeLayout>
